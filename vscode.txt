@@ -1,0 +1,83 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "matlab-runner.matlabPath": "C:\\Program Files\\MATLAB\\R2017a\\bin",
+    "matlab.matlabpath": "C:\\Program Files\\MATLAB\\R2017a\\bin",
+    "matlab.mlintpath": "C:\\Program Files\\MATLAB\\R2017a\\bin\\win64\\mlint.exe",
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "editor.cursorBlinking": "phase",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.smoothScrolling": true,
+    "workbench.statusBar.feedback.visible": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "debug.inlineValues": true,
+    "terminal.integrated.enableBell": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
+}
+
+
+
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.statusBar.feedback.visible": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.minimap.enabled": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.cursorBlinking": "phase",
+    "editor.renderIndentGuides": true,
+    "editor.wordBasedSuggestions": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
+    "editor.smoothScrolling": true,
+    "extensions.autoUpdate": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "debug.inlineValues": true,
+    "terminal.integrated.enableBell": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "git.path": "C:\\Program Files\\Git\\bin",
+    "python.linting.pylintArgs": [
+        "-max-parents=15",
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pep8Enabled": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.title": "${dirty}${separator}${activeEditorLong}${separator}${appName}",
+    "pomodoro.workTime": 25,
+    "pomodoro.pauseTime": 5,
+    "pomodoro.startIcon": "$(triangle-right)",
+    "pomodoro.pauseIcon": "$(primitive-square)",
+    "pomodoro.resetIcon": "$(sync)",
+    "pomodoro.statusBarAlignment": 1,
+    "pomodoro.statusBarTextColorPaused": "red",
+    "pomodoro.statusBarTextColorRunning": "green",
+    "pomodoro.statusBarTextColorNone": "red",
+    "typescript.check.tscVersion": false,
+    "git.enableSmartCommit": true,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "explorer.confirmDragAndDrop": false,
+    "matlab.mlintpath": "C:\\\"Program Files\"\\MATLAB\\R2017a\\bin\\win64\\mlint.exe",
+    "matlab-runner.matlabPath": "C:\\\"Program Files\"\\MATLAB\\R2017a\\bin\\matlab.exe",
+    "matlab-runner.tempFilePath": "C:\\Users\\windo\\Dropbox\\University\\\"Year 4\"\\\"Multimedia Security\"\\temp.m",
+    "matlab-runner.clearPastRuns": false,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.toc.orderedList": true,
+    "markdown.styles": [
+        "C:\\Users\\windo\\Dropbox\\Notes\\markdown.css"
+    ]
+}

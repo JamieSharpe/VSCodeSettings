@@ -1,0 +1,167 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.statusBar.feedback.visible": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 240,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.cursorBlinking": "phase",
+    "editor.renderIndentGuides": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
+    "editor.smoothScrolling": true,
+    "editor.cursorWidth": 3,
+    "editor.mouseWheelZoom": true,
+    "explorer.sortOrder": "type",
+    "extensions.autoUpdate": true,
+    "files.associations": {
+        "*.m": "matlab"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "debug.inlineValues": true,
+    "terminal.integrated.enableBell": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "git.path": "C:\\Program Files\\Git\\bin",
+    "git.enableSmartCommit": true,
+    "git.promptToSaveFilesBeforeCommit": true,
+    "python.linting.pylintArgs": [
+        "-max-parents=15",
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pep8Enabled": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.title": "${dirty}${separator}${activeEditorLong}${separator}${appName}",
+    "window.zoomLevel": 0,
+    "pomodoro.workTime": 25,
+    "pomodoro.pauseTime": 5,
+    "pomodoro.startIcon": "$(triangle-right)",
+    "pomodoro.pauseIcon": "$(primitive-square)",
+    "pomodoro.resetIcon": "$(sync)",
+    "pomodoro.statusBarAlignment": 1,
+    "pomodoro.statusBarTextColorPaused": "red",
+    "pomodoro.statusBarTextColorRunning": "green",
+    "pomodoro.statusBarTextColorNone": "red",
+    "typescript.check.tscVersion": false,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "explorer.confirmDragAndDrop": false,
+    "matlab.mlintpath": "C:\\Program Files\\MATLAB\\R2017a\\bin\\win64\\mlint.exe",
+    "matlab-runner.matlabPath": "C:\\\"Program Files\"\\MATLAB\\R2017a\\bin\\matlab.exe",
+    "matlab-runner.tempFilePath": "C:\\Users\\windo\\Dropbox\\University\\\"Year 4\"\\\"Multimedia Security\"\\temp.m",
+    "matlab-runner.clearPastRuns": false,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.toc.orderedList": true,
+    "markdown.styles": [
+        //"C:\\Users\\windo\\Dropbox\\Notes\\markdown.css"
+    ],
+    "cSpell.language": "en-GB",
+    "cSpell.userWords": [
+        "auditability",
+        "bitcoin",
+        "blockchain",
+        "blockchains",
+        "crypto",
+        "malware",
+        "nakamoto",
+        "persistency",
+        "reprecincting",
+        "rijnland",
+        "satoshi",
+        "spyware"
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.intellisense.surroundCommand.enabled": true,
+    "latex-workshop.latex.clean.enabled": true,
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.synctex.gz"
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "LuaLaTeX",
+            "tools": [
+                "LuaLaTeX"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "LuaLaTeX",
+            "command": "lualatex",
+            "args": [
+                "-synctex=1",
+                "--fmt=lualatex",
+                "%DOC%"
+            ]
+        }
+    ]
+}
